@@ -1,0 +1,37 @@
+/*custom style */
+
+body{
+
+	background: url(../images/calmblue.jpg) no-repeat fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+  }
+#welcome{
+	color:whitesmoke;
+	padding-top: 0.5em;
+	text-align: center;
+	font-weight: 400;
+	font-size: large;
+}
+
+.page-footer{
+	height: auto !important;
+}
+.copy{
+	margin-left:3em;
+}
+.social{
+	float: right;
+	margin-right:4em;
+}

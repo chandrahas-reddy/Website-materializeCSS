@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TW | Ang 1.x</title>
+	<!--Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400italic,400' rel='stylesheet' type='text/css'>
+       <!--meta media-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--styles-->
+      <link rel="stylesheet" type="text/css" href="../../css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="../../css/mystyle2.css">
+      <link rel="stylesheet" type="text/css" href="../../fontawesome/css/font-awesome.min.css">
+      <!--js-->
+      <script type="text/javascript" src="../../js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../../js/materialize.min.js"></script>
+</head>
+<body onload="Materialize.fadeInImage('#angularjs')">
+	<!--navbar-->
+	<nav>
+		<div class="nav-wrapper grey darken-3">
+		<a href="../../index.html" class="brand-logo" style="margin-left:3em;">Anipr</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		<ul class="right hide-on-med-and-down">
+		<li><a href="../../courses.html">Browse Courses</a></li>
+		<li><a href="../../teach.html">I want to teach</a></li>
+		<li><a class="waves-effect waves-light btn pink lighten-2" href="">Contribute</a></li>
+		</ul>
+		<ul class="side-nav" id="mobile-demo">
+		<li><a href="../../courses.html">Browse Courses</a></li>
+		<li><a href="../../teach.html">I want to teach</a></li>
+		<li><a class="waves-effect waves-light btn pink lighten-2" href="">Contribute</a></li>
+		</ul>
+		</div>
+    </nav>
+    <!--ang1.x-->
+   <div class="container" id="ang1">
+   		<p class="flow-text"><b>Angular 1.x</b></p>
+   		<div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/s3qZF4jhgDo?list=PLYxzS__5yYQmX2bItSRCqwiQZn5dIL1gt" frameborder="0" allowfullscreen></iframe>
+      	</div><br><br>
+      	<div id="list">
+      	<a href="#!" class="btn" onclick="Materialize.showStaggeredList('#staggered-test')">Show Tutorial Content</a>
+   			<ul id="staggered-test">
+   			<li class="" style="transform: translateX(0px); opacity: 0;">
+            <a href="#">Tutorial - 1 &nbsp;(this link is active. Please check)</a><span style="float:right;">05:40</span>
+         	</li>
+  			<li class="" style="transform: translateX(0px); opacity: 0;">
+            <a href="#">Tutorial - 2</a><span style="float:right;">03:40</span>
+         	</li>
+         	<li class="" style="transform: translateX(0px); opacity: 0;">
+            <a href="#">Tutorial - 3</a><span style="float:right;">10:00</span>
+         	</li>
+         	<li class="" style="transform: translateX(0px); opacity: 0;">
+            <a href="#">Tutorial - 4</a><span style="float:right;">13:20</span>
+         	</li>
+   			</ul>
+   		</div>       
+   </div>
+
+   <!--footer-->
+    <footer class="page-footer grey darken-3">
+          <div class="footer-copyright">
+            <span class="copy">
+            &copy; 2016
+            </span>
+            <span class="social">
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-facebook-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-twitter-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-google-plus-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-github-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            </span>
+          </div>
+        </footer>
+
+    <script type="text/javascript">
+    	$( document ).ready(function()
+    	{
+    		$(".button-collapse").sideNav();
+    	})
+    </script>
+</body>
+</html>

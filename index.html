@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teach Website</title>
+	<!--Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400italic,400' rel='stylesheet' type='text/css'>
+       <!--meta media-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <!--styles-->
+      <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+      <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+      <!--js-->
+      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+</head>
+<body onload="Materialize.fadeInImage('#angularjs')">
+	<!--navbar-->
+	<nav>
+		<div class="nav-wrapper grey darken-3">
+		<a href="index.html" class="brand-logo" style="margin-left:3em;">Anipr</a>
+		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		<ul class="right hide-on-med-and-down">
+		<li><a href="courses.html">I want to Learn</a></li>
+		<li><a href="teach.html">I want to teach</a></li>
+		<li><a class="waves-effect waves-light btn pink lighten-2" href="">Contribute</a></li>
+		</ul>
+		<ul class="side-nav" id="mobile-demo">
+		<li><a href="courses.html">I want to Learn</a></li>
+		<li><a href="teach.html">I want to teach</a></li>
+		<li><a class="waves-effect waves-light btn pink lighten-2" href="">Contribute</a></li>
+		</ul>
+		</div>
+    </nav>
+
+    <!--Intro-->
+    <div class="container intro" id="intro">
+	    <div id="welcome">
+	    	<h4>Welcome to the world of angular</h4>
+	    </div>
+	    <div id="wel_image" align="center">
+	    	<img id="angularjs" src="images/Angularjs.png" height="250" width="250" />
+	    </div>
+	    <br>
+	    <div align="center" style="color:whitesmoke;">
+	    	<div class="carousel">
+	    	<span>Our Popular Courses</span>
+			    <a class="carousel-item" href="courses.html#javascript"><img src="images/javascript.png" height="200" 
+			    width="200"></a>
+			    <a class="carousel-item" href="courses.html#angular"><img src="images/Angularjs.png" height="200" 
+			    width="200"></a>
+			    <a class="carousel-item" href="courses.html#ionic"><img src="images/ionic.png" height="200" 
+			    width="200"></a>
+			    <a class="carousel-item" href="courses.html#materialcss"><img src="images/material.jpg" height="200" 
+			    width="200"></a>
+			    <a class="carousel-item" href="courses.html#firebase"><img src="images/firebase.png" height="200" 
+			    width="200"></a>
+		  </div>
+	    </div>
+    </div>
+
+    <!--footer-->
+    <footer class="page-footer grey darken-3">
+          <div class="footer-copyright">
+            <span class="copy">
+            &copy; 2016
+            </span>
+            <span class="social">
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-facebook-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-twitter-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-google-plus-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            	<a style="color:whitesmoke;" href="#"><i class="fa fa-github-square" aria-hidden="true" 
+            	style="font-size:25px;"></i></a>
+            </span>
+          </div>
+        </footer>
+
+
+    <script type="text/javascript">
+    	$( document ).ready(function()
+    	{
+    		$(".button-collapse").sideNav();
+    		$('.carousel').carousel();
+    	})
+    </script>
+</body>
+</html>
